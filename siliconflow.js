@@ -21,17 +21,17 @@ let PluginJS = {
             type: "password" 
         },
         fullUrl: {
-            label: "API 地址",
+            label: "API URL. you need add /audio/speech",
             hint: "SiliconFlow TTS API 端点",
             value: "https://api.siliconflow.cn/v1/audio/speech"
         },
         modelName: { 
-            label: "模型名称", 
+            label: "Model Name", 
             hint: "推荐: FunAudioLLM/CosyVoice2-0.5B", 
             value: "FunAudioLLM/CosyVoice2-0.5B" 
         },
         voiceIdentifier: { 
-            label: "语音标识符", 
+            label: "Voice ID", 
             hint: "自定义语音ID或预设语音", 
             value: "中文女" 
         },
